@@ -9,6 +9,7 @@ eureka:
       defaultZone: ${eureka.instance.hostname}:8761/eureka/
       cache-refresh-interval: 10
 
+spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/bankingDB?createDatabaseIfNotExist=true&useSSL=false
     username: postgres
